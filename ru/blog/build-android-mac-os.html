@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Сборка Android под Mac OS X | Genie in a Bottle</title>
+    <meta name="generator" content="GravCMS" />
+<meta name="author" content="Iaroslav Veikov (Yaroslav Veykov)" />
+<meta name="description" content="A small mobile team founded by a group of like-minded people with extensive experience in development of Android and iOS applications, with great interest in game development etc." />
+<meta name="keywords" content="mobile development, mobile programming, ios development, ios apps, iphone development, ipad development, android development, android apps, genie in a bottle, Yaroslav Veykov, Iaroslav Veikov" />
+<meta name="geo.position" content="44.81489232206759, 20.44794522261786" />
+<meta name="geo.placename" content="Belgrade, Serbia" />
+<meta name="geo.region" content="ru" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/png" href="../../user/themes/freematter/images/favicon.png" />
+    <link rel="canonical" href="https://gibstudio.github.io/ru/build-android-mac-os.html" />
+
+                                                    
+                        <link href="../../user/themes/freematter/css/pure-0.5.0/grids-min.css" type="text/css" rel="stylesheet" />
+<link href="../../user/themes/freematter/css-compiled/nucleus.css" type="text/css" rel="stylesheet" />
+<link href="../../user/themes/freematter/css-compiled/template.css" type="text/css" rel="stylesheet" />
+<link href="../../user/themes/freematter/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+<link href="../../user/plugins/markdown-notices/assets/notices.css" type="text/css" rel="stylesheet" />
+<link href="../../user/plugins/breadcrumbs/css/breadcrumbs.css" type="text/css" rel="stylesheet" />
+<link href="../../user/plugins/form/assets/form-styles.css" type="text/css" rel="stylesheet" />
+<link href="../../user/plugins/langswitcher/css/langswitcher.css" type="text/css" rel="stylesheet" />
+<link href="../../user/plugins/simplesearch/css/simplesearch.css" type="text/css" rel="stylesheet" />
+<link href="../../user/plugins/highlight/css/default.css" type="text/css" rel="stylesheet" />
+<link href="../../user/plugins/login/css/login.css" type="text/css" rel="stylesheet" />
+<link href="../../user/themes/freematter/css/slidebars.min.css" type="text/css" rel="stylesheet" />
+
+
+                                            <script src="../../system/assets/jquery/jquery-2.1.4.min.js" type="text/javascript" ></script>
+<script src="../../user/themes/freematter/js/modernizr.custom.71422.js" type="text/javascript" ></script>
+<script src="../../user/plugins/highlight/js/highlight.pack.js" type="text/javascript" ></script>
+<script src="../../user/themes/freematter/js/antimatter.js" type="text/javascript" ></script>
+<script src="../../user/themes/freematter/js/slidebars.min.js" type="text/javascript" ></script>
+
+<script>
+$(document).ready(function() {
+                    $('pre code').each(function(i, block) {
+                        hljs.highlightBlock(block);
+                    });
+                 });
+
+</script>
+
+
+</head>
+<body id="top" class="">
+    <div id="sb-site">
+                <header id="header">
+            <div id="logo">
+                <h3><a href="../../ru.html"><i class="fa fa-flask"></i></a></h3>
+            </div>
+            <div id="navbar">
+                                
+                					<ul class="langswitcher">
+
+
+                    
+	    
+	
+    <li><a href="../../blog/build-android-mac-os.html" class="external">English</a></li>
+
+
+                    
+	    
+	
+    <li><a href="../random.html" class="external active">Русский</a></li>
+
+</ul>
+                                
+                					
+<ul class="navigation">
+                                    <li class="">
+                <a href="../../ru.html">
+                                        Главная
+                </a>
+            </li>
+                                <li class="active">
+                <a href="../blog.html">
+                                        Блог
+                </a>
+            </li>
+                                <li class="">
+                <a href="../privacy-policy.html">
+                                        Политика конф.
+                </a>
+            </li>
+                                <li class="">
+                <a href="../berryboom.html">
+                                        Berry Boom!
+                </a>
+            </li>
+                                <li class="">
+                <a href="../turbofinger.html">
+                                        Turbofinger
+                </a>
+            </li>
+                                <li class="">
+                <a href="../fingertron.html">
+                                        Fingertron
+                </a>
+            </li>
+                    </ul>
+
+                                <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
+            </div>
+        </header>
+        
+        
+                <section id="body" class="">
+            					
+<div id="breadcrumbs" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                                            <a href="../../ru.html" itemprop="url"><span itemprop="title">Главная</span></a>
+                        <i class="fa fa-angle-right"></i>
+                                                <a href="../blog.html" itemprop="url"><span itemprop="title">Блог</span></a>
+                        <i class="fa fa-angle-right"></i>
+                                                <span itemprop="title">Сборка Android под Mac OS X</span>
+                        </div>
+				
+		<div class="blog-content-item grid pure-g-r">
+			<div id="item" class="block pure-u-2-3 h-entry">
+			    <div class="list-item h-entry">
+
+                
+    <div class="list-blog-header">
+        <span class="list-blog-date">
+            <time class="dt-published" datetime="2017-04-30T19:00:00+03:00">
+                <span>30</span>
+                <em>Apr</em>
+            </time>
+        </span>
+                    <h4 class="p-name">
+                                <a href="../random.html"><i class="fa fa-angle-double-right u-url"></i></a>
+                                <a href="https://habrahabr.ru/post/207706/" class="u-url">Сборка Android под Mac OS X</a>
+            </h4>
+        
+                <span class="tags">
+                        <a href="./tag:macOS.html" class="p-category">macOS</a>
+                        <a href="./tag:android.html" class="p-category">android</a>
+                        <a href="./tag:build.html" class="p-category">build</a>
+                        <a href="./tag:development.html" class="p-category">development</a>
+                    </span>
+                                                                    
+            				<img src="../../images/c/d/a/d/e/cdadefd1e8a6c4934e73a1e6f06a047cb186a5b9-header.jpeg" />
+			        
+    </div>
+
+    <div class="list-blog-padding">
+
+            <div class="e-content">
+            <p>Для одного из проектов потребовалось заняться доработками оригинального кода Android для создания прошивки под специфичную железку. Версия для сборки была выбрана уже относительно старая — AOSP 4.0.4, но на ней базируется стабильная ветка кода от производителя железки, поэтому условие необходимое. Кроме разработки под Android я занимаюсь разработкой iOS приложений, соответственно работаю под Mac OS X и использую Xcode как одну из сред для разработки.</p>
+
+<p>Полный оригинальный текст на русском языке можно найти на <a href="https://habrahabr.ru/post/207706/">habrahabr.ru</a>.</p>
+        </div>
+
+        
+            
+    
+        <p class="prev-next">
+                            <a class="button" href="fingertron-demon-racing.html"><i class="fa fa-chevron-left"></i> Следующая запись</a>
+            
+                    </p>
+    
+    </div>
+</div>
+			</div>
+			<div id="sidebar" class="block size-1-3 pure-u-1-3">
+				
+<div class="sidebar-content">
+    <h4>Поиск</h4>
+    <div class="search-wrapper">
+    <form name="search" onSubmit="return validateSearch(event);">
+        <input
+            name="searchfield"
+            class="search-input"
+            type="text"
+            pattern=".{3,}"
+            required
+            oninvalid="this.setCustomValidity('Please add at least 3 characters')" onchange="try{setCustomValidity('')}catch(e){}"
+            placeholder="Найти..."
+            value=""
+            data-search-input="/ru/search/query"
+        />
+            </form>
+    <script>
+    function validateSearch(event) {
+        var input = document.forms["search"]["searchfield"];
+        var target = input.getAttribute('data-search-input');
+        if (input.value.length >= 3) {
+            event.preventDefault();
+            window.location.href = target + ':' + input.value;
+        } else {
+            event.preventDefault();
+        }
+    }
+    </script>
+</div>
+</div>
+    <h4>Также читайте</h4>
+    <ul class="related-pages">
+                                <li>
+                                    <span class="score">60</span>
+                                <a href="gibstudio-mobile-games-statistics.html" title="Статистика мобильных игр "Genie in a bottle"">Статистика мобильных игр "Genie in a bottle"</a>
+            </li>
+                                        <li>
+                                    <span class="score">50</span>
+                                <a href="integration-of-cordova-into-a-native-ios-project.html" title="Интеграция Cordova в нативный iOS проект">Интеграция Cordova в нативный iOS проект</a>
+            </li>
+            </ul><div class="sidebar-content">
+	<h4>Случайная запись</h4>
+	<a class="button" href="../random.html"><i class="fa fa-retweet"></i> Мне повезёт!</a>
+</div>
+<div class="sidebar-content">
+    <h4>Популярные теги</h4>
+    
+<span class="tags">
+                    <a class="" href="./tag:ios.html">ios</a>
+                    <a class="" href="./tag:games.html">games</a>
+                    <a class="" href="./tag:development.html">development</a>
+                    <a class="" href="./tag:android.html">android</a>
+                    <a class="" href="./tag:swift.html">swift</a>
+                    <a class="" href="./tag:webview.html">webview</a>
+                    <a class="" href="./tag:cordova.html">cordova</a>
+                    <a class="" href="./tag:hybrid%20apps.html">hybrid apps</a>
+                    <a class="" href="./tag:statistics.html">statistics</a>
+                    <a class="" href="./tag:build.html">build</a>
+                    <a class="" href="./tag:macOS.html">macOS</a>
+                    <a class="" href="./tag:app%20store.html">app store</a>
+                    <a class="" href="./tag:google%20play.html">google play</a>
+    </span>
+</div>
+<div class="sidebar-content">
+    <h4>Архив</h4>
+	<ul class="archives">
+
+    <li>
+    	<a href="./archives_month:jan_2020.html">
+                <span class="label">1</span>
+                <span class="archive_date">January 2020</span>
+        </a>
+    </li>
+    <li>
+    	<a href="./archives_month:nov_2017.html">
+                <span class="label">1</span>
+                <span class="archive_date">November 2017</span>
+        </a>
+    </li>
+    <li>
+    	<a href="./archives_month:sep_2017.html">
+                <span class="label">1</span>
+                <span class="archive_date">September 2017</span>
+        </a>
+    </li>
+    <li>
+    	<a href="./archives_month:apr_2017.html">
+                <span class="label">1</span>
+                <span class="archive_date">April 2017</span>
+        </a>
+    </li>
+</ul>
+</div>
+<div class="sidebar-content syndicate">
+    <h4>Синдикация</h4>
+    <a class="button" href="../blog.atom"><i class="fa fa-rss-square"></i> Atom 1.0</a>
+    <a class="button" href="../blog.rss"><i class="fa fa-rss-square"></i> RSS</a>
+</div>
+			</div>
+		</div>
+	        </section>
+        
+					<footer id="footer">
+	<div class="totop">
+		<span><a href="../random.html#" id="toTop"><i class="fa fa-arrow-up"></i></a></span>
+	</div>
+	<p>Copyright &copy; Genie in a Bottle studio, 2011-2025</p>
+</footer>
+		    </div>
+    <div class="sb-slidebar sb-left sb-width-thin">
+        <div id="panel">
+        
+<ul class="navigation">
+                                    <li class="">
+                <a href="../../ru.html">
+                                        Главная
+                </a>
+            </li>
+                                <li class="active">
+                <a href="../blog.html">
+                                        Блог
+                </a>
+            </li>
+                                <li class="">
+                <a href="../privacy-policy.html">
+                                        Политика конф.
+                </a>
+            </li>
+                                <li class="">
+                <a href="../berryboom.html">
+                                        Berry Boom!
+                </a>
+            </li>
+                                <li class="">
+                <a href="../turbofinger.html">
+                                        Turbofinger
+                </a>
+            </li>
+                                <li class="">
+                <a href="../fingertron.html">
+                                        Fingertron
+                </a>
+            </li>
+                    </ul>
+
+        </div>
+    </div>
+            <!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter21321733 = new Ya.Metrika({id:21321733,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/21321733" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+        
+            
+        <script>
+        $(function () {
+            $(document).ready(function() {
+              $.slidebars({
+                hideControlClasses: true,
+                scrollLock: true
+              });
+            });
+        });
+        </script>
+    </body>
+</html>

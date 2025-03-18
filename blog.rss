@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Blog</title>
+        <link>https://gibstudio.github.io/blog.rss</link>
+        <description>Genie in a Bottle blog</description>
+        <language>en-us</language>
+        <atom:link href="https://gibstudio.github.io/blog.rss" rel="self" type="application/rss+xml"/>
+                        <item>
+            <title>&quot;Genie in a bottle&quot; mobile games statistics</title>
+            <link>https://gibstudio.github.io/blog/gibstudio-mobile-games-statistics</link>
+            <description>
+                <![CDATA[
+                                <img src="https://gibstudio.github.io/images/3/4/0/c/c/340ccd96afaac6c32fc34f0ddf058528cdc3eac5-header.png" />
+                                <p>It was going to be just a short post regarding some numbers which gained my apps in the past, but it's become a little bit more than that.</p><p>As you probably already know, I'm a software engineer working mostly in mobile development. In addition to my commercial job, I've done some work on the side and developed a couple of mobile games of my own. It's necessary to mention here that all of the apps which will be discussed below were created in collaboration with Alexander Veresov who is a friend...</p>
+                ]]>
+            </description>
+            <category>ios,android,games,statistics,app store,google play</category>
+            <guid>https://gibstudio.github.io/blog/gibstudio-mobile-games-statistics</guid>
+            <pubDate>Fri, 03 Jan 2020 22:00:00 +0300</pubDate>
+        </item>
+                        <item>
+            <title>Integration of Cordova into a native iOS project</title>
+            <link>https://gibstudio.github.io/blog/integration-of-cordova-into-a-native-ios-project</link>
+            <description>
+                <![CDATA[
+                                <img src="https://gibstudio.github.io/images/5/9/d/7/e/59d7eaf59187d80ec93f5e6862740639b4dcaa70-header.png" />
+                                <p><strong><em>Disclaimer: it is the translation of my article that was written in Russian some time ago. All mentioned versions of software might be outdated now. But anyway, it can be helpful :).</em></strong></p><p>Continuing the small series of posts "<a href="https://habrahabr.ru/post/308538">Crosswalk Project &mdash; a replacement for Android WebView</a>", it makes sense to solve a similar task for iOS. Cordova project was choosen as the base layer for integration because it has a bigger feature list and fit better for the current task.</p><p>Both solutions Cordova and Cross...</p>
+                ]]>
+            </description>
+            <category>ios,cordova,swift,webview,hybrid apps,development</category>
+            <guid>https://gibstudio.github.io/blog/integration-of-cordova-into-a-native-ios-project</guid>
+            <pubDate>Mon, 08 Jan 2018 19:00:00 +0300</pubDate>
+        </item>
+                        <item>
+            <title>Fingertron Demon Racing</title>
+            <link>https://gibstudio.github.io/blog/fingertron-demon-racing</link>
+            <description>
+                <![CDATA[
+                                <img src="https://gibstudio.github.io/images/2/8/3/1/8/283186a1cbb2f04e024b08bc9b2fa1bae32e8c45-header.jpeg" />
+                                <p>Hi there. I would like to make a quick announcement. We've released one more iOS game with my friend. The first one was <a href="/turbofinger">Turbofinger Arcade Racing</a> and now <a href="/fingertron">Fingertron Demon Racing</a> is added to the list. If you are interested, follow me on <a href="https://twitter.com/gibstudio">Twitter</a> and stay tuned!</p><p><strong>Fingertron Demon Racing</strong> is a small hobby project. We are both have relation to the game industry and enjoying development of own games. The project is free and quite simple but we hope that it can interest you and helps to kill som...</p>
+                ]]>
+            </description>
+            <category>ios,games</category>
+            <guid>https://gibstudio.github.io/blog/fingertron-demon-racing</guid>
+            <pubDate>Tue, 12 Sep 2017 12:00:00 +0300</pubDate>
+        </item>
+                        <item>
+            <title>Build Android on Mac OS X</title>
+            <link>https://gibstudio.github.io/blog/build-android-mac-os</link>
+            <description>
+                <![CDATA[
+                                <img src="https://gibstudio.github.io/images/3/9/f/4/0/39f40831374cc8e5dc4c2833637474040c032013-header.jpeg" />
+                                <p><strong><em>Disclaimer: it's translation of my article that was written in Russian some time ago. All mentioned versions of software are outdated now. But anyway, it can be helpful :).</em></strong></p><p>For one of my projects I needed to improve original Android sources to create firmware for specific hardware. The version of Android was chosen quite old &mdash; AOSP 4.0.4 but it was necessary because stable version of sources for our hardware was based on this version. The next issues was my work environment. Besides Android...</p>
+                ]]>
+            </description>
+            <category>macOS,android,build,development</category>
+            <guid>https://gibstudio.github.io/blog/build-android-mac-os</guid>
+            <pubDate>Sun, 30 Apr 2017 19:00:00 +0300</pubDate>
+        </item>
+            </channel>
+</rss>

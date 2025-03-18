@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Blog</title>
+    <link href="https://gibstudio.github.io/blog.atom" rel="self" />
+    <subtitle>Genie in a Bottle blog</subtitle>
+    <updated>2020-01-03T22:00:00+03:00</updated>
+    <author>
+        <name>Iaroslav Veikov</name>
+    </author>
+    <id>https://gibstudio.github.io/blog</id>
+            <entry>
+        <title>&quot;Genie in a bottle&quot; mobile games statistics</title>
+        <id>https://gibstudio.github.io/blog/gibstudio-mobile-games-statistics</id>
+        <updated>2020-01-03T22:00:00+03:00</updated>
+        <published>2020-01-03T22:00:00+03:00</published>
+        <link href="https://gibstudio.github.io/blog/gibstudio-mobile-games-statistics"/>
+                <category term="ios" label="Ios" />
+                <category term="android" label="Android" />
+                <category term="games" label="Games" />
+                <category term="statistics" label="Statistics" />
+                <category term="app store" label="App store" />
+                <category term="google play" label="Google play" />
+                <content type="html">
+            <![CDATA[
+                        <img src="/images/3/4/0/c/c/340ccd96afaac6c32fc34f0ddf058528cdc3eac5-header.png" />
+                        <p>It was going to be just a short post regarding some numbers which gained my apps in the past, but it's become a little bit more than that.</p><p>As you probably already know, I'm a software engineer working mostly in mobile development. In addition to my commercial job, I've done some work on the side and developed a couple of mobile games of my own. It's necessary to mention here that all of the apps which will be discussed below were created in collaboration with Alexander Veresov who is a friend...</p>
+            ]]>
+        </content>
+    </entry>
+            <entry>
+        <title>Integration of Cordova into a native iOS project</title>
+        <id>https://gibstudio.github.io/blog/integration-of-cordova-into-a-native-ios-project</id>
+        <updated>2018-01-08T19:00:00+03:00</updated>
+        <published>2018-01-08T19:00:00+03:00</published>
+        <link href="https://gibstudio.github.io/blog/integration-of-cordova-into-a-native-ios-project"/>
+                <category term="ios" label="Ios" />
+                <category term="cordova" label="Cordova" />
+                <category term="swift" label="Swift" />
+                <category term="webview" label="Webview" />
+                <category term="hybrid apps" label="Hybrid apps" />
+                <category term="development" label="Development" />
+                <content type="html">
+            <![CDATA[
+                        <img src="/images/5/9/d/7/e/59d7eaf59187d80ec93f5e6862740639b4dcaa70-header.png" />
+                        <p><strong><em>Disclaimer: it is the translation of my article that was written in Russian some time ago. All mentioned versions of software might be outdated now. But anyway, it can be helpful :).</em></strong></p><p>Continuing the small series of posts "<a href="https://habrahabr.ru/post/308538">Crosswalk Project &mdash; a replacement for Android WebView</a>", it makes sense to solve a similar task for iOS. Cordova project was choosen as the base layer for integration because it has a bigger feature list and fit better for the current task.</p><p>Both solutions Cordova and Cross...</p>
+            ]]>
+        </content>
+    </entry>
+            <entry>
+        <title>Fingertron Demon Racing</title>
+        <id>https://gibstudio.github.io/blog/fingertron-demon-racing</id>
+        <updated>2017-09-12T12:00:00+03:00</updated>
+        <published>2017-09-12T12:00:00+03:00</published>
+        <link href="https://gibstudio.github.io/blog/fingertron-demon-racing"/>
+                <category term="ios" label="Ios" />
+                <category term="games" label="Games" />
+                <content type="html">
+            <![CDATA[
+                        <img src="/images/2/8/3/1/8/283186a1cbb2f04e024b08bc9b2fa1bae32e8c45-header.jpeg" />
+                        <p>Hi there. I would like to make a quick announcement. We've released one more iOS game with my friend. The first one was <a href="/turbofinger">Turbofinger Arcade Racing</a> and now <a href="/fingertron">Fingertron Demon Racing</a> is added to the list. If you are interested, follow me on <a href="https://twitter.com/gibstudio">Twitter</a> and stay tuned!</p><p><strong>Fingertron Demon Racing</strong> is a small hobby project. We are both have relation to the game industry and enjoying development of own games. The project is free and quite simple but we hope that it can interest you and helps to kill som...</p>
+            ]]>
+        </content>
+    </entry>
+            <entry>
+        <title>Build Android on Mac OS X</title>
+        <id>https://gibstudio.github.io/blog/build-android-mac-os</id>
+        <updated>2017-04-30T19:00:00+03:00</updated>
+        <published>2017-04-30T19:00:00+03:00</published>
+        <link href="https://gibstudio.github.io/blog/build-android-mac-os"/>
+                <category term="macos" label="Macos" />
+                <category term="android" label="Android" />
+                <category term="build" label="Build" />
+                <category term="development" label="Development" />
+                <content type="html">
+            <![CDATA[
+                        <img src="/images/3/9/f/4/0/39f40831374cc8e5dc4c2833637474040c032013-header.jpeg" />
+                        <p><strong><em>Disclaimer: it's translation of my article that was written in Russian some time ago. All mentioned versions of software are outdated now. But anyway, it can be helpful :).</em></strong></p><p>For one of my projects I needed to improve original Android sources to create firmware for specific hardware. The version of Android was chosen quite old &mdash; AOSP 4.0.4 but it was necessary because stable version of sources for our hardware was based on this version. The next issues was my work environment. Besides Android...</p>
+            ]]>
+        </content>
+    </entry>
+    </feed>
